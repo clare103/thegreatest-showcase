@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CFCFF4E4FC3AA10B71A601E /* Pods_thegreatest_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C88DC0FEAB8432BB377BF5 /* Pods_thegreatest_showcase.framework */; };
+		340DD1DF1CB6171C00E2A64A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DD1DE1CB6171C00E2A64A /* FeedVC.swift */; };
+		340DD1E11CB6187000E2A64A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DD1E01CB6187000E2A64A /* PostCell.swift */; };
 		342617AA1CB5BE2E00D80D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617A91CB5BE2E00D80D8B /* AppDelegate.swift */; };
 		342617AC1CB5BE2E00D80D8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617AB1CB5BE2E00D80D8B /* ViewController.swift */; };
 		342617AF1CB5BE2E00D80D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342617AD1CB5BE2E00D80D8B /* Main.storyboard */; };
 		342617B11CB5BE2E00D80D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342617B01CB5BE2E00D80D8B /* Assets.xcassets */; };
 		342617B41CB5BE2E00D80D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342617B21CB5BE2E00D80D8B /* LaunchScreen.storyboard */; };
+		342617BF1CB5BE8E00D80D8B /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342617BB1CB5BE8E00D80D8B /* NotoSans-Bold.ttf */; };
+		342617C01CB5BE8E00D80D8B /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342617BC1CB5BE8E00D80D8B /* NotoSans-BoldItalic.ttf */; };
+		342617C11CB5BE8E00D80D8B /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342617BD1CB5BE8E00D80D8B /* NotoSans-Italic.ttf */; };
+		342617C21CB5BE8E00D80D8B /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342617BE1CB5BE8E00D80D8B /* NotoSans-Regular.ttf */; };
+		342617C81CB5C15B00D80D8B /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617C71CB5C15B00D80D8B /* MaterialView.swift */; };
+		342617CB1CB5C1A300D80D8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617CA1CB5C1A300D80D8B /* Constants.swift */; };
+		342617CD1CB5C61C00D80D8B /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617CC1CB5C61C00D80D8B /* MaterialButton.swift */; };
+		342617CF1CB5C95400D80D8B /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617CE1CB5C95400D80D8B /* MaterialTextField.swift */; };
+		342617D41CB5CDBD00D80D8B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342617D11CB5CDBD00D80D8B /* Bolts.framework */; };
+		342617D51CB5CDBD00D80D8B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342617D21CB5CDBD00D80D8B /* FBSDKCoreKit.framework */; };
+		342617D61CB5CDBD00D80D8B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342617D31CB5CDBD00D80D8B /* FBSDKLoginKit.framework */; };
+		342617D91CB5D89D00D80D8B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342617D81CB5D89D00D80D8B /* DataService.swift */; };
+		348923781CB734C8001BAF8E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348923771CB734C8001BAF8E /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C88DC0FEAB8432BB377BF5 /* Pods_thegreatest_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thegreatest_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAAFB57220B73E20554CC88 /* Pods-thegreatest-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thegreatest-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-thegreatest-showcase/Pods-thegreatest-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		340DD1DE1CB6171C00E2A64A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		340DD1E01CB6187000E2A64A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		342617A61CB5BE2E00D80D8B /* thegreatest-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thegreatest-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342617A91CB5BE2E00D80D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342617AB1CB5BE2E00D80D8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,20 @@
 		342617B01CB5BE2E00D80D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342617B31CB5BE2E00D80D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342617B51CB5BE2E00D80D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342617BB1CB5BE8E00D80D8B /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		342617BC1CB5BE8E00D80D8B /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		342617BD1CB5BE8E00D80D8B /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		342617BE1CB5BE8E00D80D8B /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		342617C71CB5C15B00D80D8B /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		342617CA1CB5C1A300D80D8B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		342617CC1CB5C61C00D80D8B /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		342617CE1CB5C95400D80D8B /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		342617D11CB5CDBD00D80D8B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		342617D21CB5CDBD00D80D8B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		342617D31CB5CDBD00D80D8B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		342617D81CB5D89D00D80D8B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		348923771CB734C8001BAF8E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6E5D56A05B3638D3222BFC8C /* Pods-thegreatest-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thegreatest-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-thegreatest-showcase/Pods-thegreatest-showcase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342617D41CB5CDBD00D80D8B /* Bolts.framework in Frameworks */,
+				342617D51CB5CDBD00D80D8B /* FBSDKCoreKit.framework in Frameworks */,
+				342617D61CB5CDBD00D80D8B /* FBSDKLoginKit.framework in Frameworks */,
+				2CFCFF4E4FC3AA10B71A601E /* Pods_thegreatest_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28145F11F211BE9A41465B6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CAAFB57220B73E20554CC88 /* Pods-thegreatest-showcase.debug.xcconfig */,
+				6E5D56A05B3638D3222BFC8C /* Pods-thegreatest-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3426179D1CB5BE2E00D80D8B = {
 			isa = PBXGroup;
 			children = (
 				342617A81CB5BE2E00D80D8B /* thegreatest-showcase */,
 				342617A71CB5BE2E00D80D8B /* Products */,
+				28145F11F211BE9A41465B6F /* Pods */,
+				41E4272751214837318D3AEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,93 @@
 		342617A81CB5BE2E00D80D8B /* thegreatest-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				342617D71CB5D88700D80D8B /* Services */,
+				342617D01CB5CDA700D80D8B /* Frameworks */,
+				342617C91CB5C19800D80D8B /* Util */,
+				342617C61CB5BEAE00D80D8B /* Controller */,
+				342617C51CB5BEA600D80D8B /* View */,
+				342617C41CB5BE9F00D80D8B /* Model */,
+				342617C31CB5BE9400D80D8B /* Resources */,
 				342617A91CB5BE2E00D80D8B /* AppDelegate.swift */,
-				342617AB1CB5BE2E00D80D8B /* ViewController.swift */,
 				342617AD1CB5BE2E00D80D8B /* Main.storyboard */,
 				342617B01CB5BE2E00D80D8B /* Assets.xcassets */,
 				342617B21CB5BE2E00D80D8B /* LaunchScreen.storyboard */,
 				342617B51CB5BE2E00D80D8B /* Info.plist */,
 			);
 			path = "thegreatest-showcase";
+			sourceTree = "<group>";
+		};
+		342617C31CB5BE9400D80D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				342617BB1CB5BE8E00D80D8B /* NotoSans-Bold.ttf */,
+				342617BC1CB5BE8E00D80D8B /* NotoSans-BoldItalic.ttf */,
+				342617BD1CB5BE8E00D80D8B /* NotoSans-Italic.ttf */,
+				342617BE1CB5BE8E00D80D8B /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		342617C41CB5BE9F00D80D8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				348923771CB734C8001BAF8E /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		342617C51CB5BEA600D80D8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				342617C71CB5C15B00D80D8B /* MaterialView.swift */,
+				342617CC1CB5C61C00D80D8B /* MaterialButton.swift */,
+				342617CE1CB5C95400D80D8B /* MaterialTextField.swift */,
+				340DD1E01CB6187000E2A64A /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		342617C61CB5BEAE00D80D8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				342617AB1CB5BE2E00D80D8B /* ViewController.swift */,
+				340DD1DE1CB6171C00E2A64A /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		342617C91CB5C19800D80D8B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				342617CA1CB5C1A300D80D8B /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		342617D01CB5CDA700D80D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342617D11CB5CDBD00D80D8B /* Bolts.framework */,
+				342617D21CB5CDBD00D80D8B /* FBSDKCoreKit.framework */,
+				342617D31CB5CDBD00D80D8B /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342617D71CB5D88700D80D8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				342617D81CB5D89D00D80D8B /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		41E4272751214837318D3AEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C88DC0FEAB8432BB377BF5 /* Pods_thegreatest_showcase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 342617B81CB5BE2E00D80D8B /* Build configuration list for PBXNativeTarget "thegreatest-showcase" */;
 			buildPhases = (
+				4A68FA3FDFC4A89D98D9BE8B /* Check Pods Manifest.lock */,
 				342617A21CB5BE2E00D80D8B /* Sources */,
 				342617A31CB5BE2E00D80D8B /* Frameworks */,
 				342617A41CB5BE2E00D80D8B /* Resources */,
+				A91B579DD104F0EE3D14E59A /* Embed Pods Frameworks */,
+				40EB4FE67D461B8864CF4E8E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +254,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342617BF1CB5BE8E00D80D8B /* NotoSans-Bold.ttf in Resources */,
 				342617B41CB5BE2E00D80D8B /* LaunchScreen.storyboard in Resources */,
+				342617C01CB5BE8E00D80D8B /* NotoSans-BoldItalic.ttf in Resources */,
+				342617C11CB5BE8E00D80D8B /* NotoSans-Italic.ttf in Resources */,
 				342617B11CB5BE2E00D80D8B /* Assets.xcassets in Resources */,
 				342617AF1CB5BE2E00D80D8B /* Main.storyboard in Resources */,
+				342617C21CB5BE8E00D80D8B /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40EB4FE67D461B8864CF4E8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-thegreatest-showcase/Pods-thegreatest-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A68FA3FDFC4A89D98D9BE8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A91B579DD104F0EE3D14E59A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-thegreatest-showcase/Pods-thegreatest-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		342617A21CB5BE2E00D80D8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342617CF1CB5C95400D80D8B /* MaterialTextField.swift in Sources */,
+				342617D91CB5D89D00D80D8B /* DataService.swift in Sources */,
+				342617C81CB5C15B00D80D8B /* MaterialView.swift in Sources */,
 				342617AC1CB5BE2E00D80D8B /* ViewController.swift in Sources */,
+				340DD1DF1CB6171C00E2A64A /* FeedVC.swift in Sources */,
+				340DD1E11CB6187000E2A64A /* PostCell.swift in Sources */,
 				342617AA1CB5BE2E00D80D8B /* AppDelegate.swift in Sources */,
+				342617CB1CB5C1A300D80D8B /* Constants.swift in Sources */,
+				342617CD1CB5C61C00D80D8B /* MaterialButton.swift in Sources */,
+				348923781CB734C8001BAF8E /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +441,15 @@
 		};
 		342617B91CB5BE2E00D80D8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAAFB57220B73E20554CC88 /* Pods-thegreatest-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thegreatest-showcase",
+				);
 				INFOPLIST_FILE = "thegreatest-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thegreatestross.thegreatest-showcase";
@@ -261,8 +459,15 @@
 		};
 		342617BA1CB5BE2E00D80D8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5D56A05B3638D3222BFC8C /* Pods-thegreatest-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thegreatest-showcase",
+				);
 				INFOPLIST_FILE = "thegreatest-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thegreatestross.thegreatest-showcase";
@@ -289,6 +494,7 @@
 				342617BA1CB5BE2E00D80D8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
